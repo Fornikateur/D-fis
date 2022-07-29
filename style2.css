@@ -1,0 +1,20 @@
+h1 {
+color:white;
+font-size: 11px;
+}
+
+p {
+	color: black;
+	font-weight: bold;
+	
+}
+
+#faux {
+	color: yellow;
+	
+}
+
+#lune {
+	color:white;
+	background-color: blue;
+}

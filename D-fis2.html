@@ -1,0 +1,42 @@
+<!Doctype html>
+
+<html>
+
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="style2.css"/>
+
+	<Head>
+		<title> D-fis 2 </title>
+		
+	</head>
+	<body>
+		<p>Arriveras tu a trouver la reponse:</p>
+			<h3>La lumière de la lune eclaire ton chemin</h3>
+			<div id="mot">
+				<h1>
+					Ombre
+				</h1>
+			</div>
+			<div>
+				<p id="faux"> Soleil</p>
+			</div>
+			
+			<div>
+				<p id="lune"> Lune</p>
+			</div>
+			<input type="text" value="Reponse" id="Rep">
+			<input type="button" value="valider" id="Val" onclick="Compa()">
+			
+		<script type="text/javascript">
+		var Pi = "Ombre";
+		function Compa(){
+		var OK = document.getElementById("Rep").value;
+		if (OK == Pi){
+			alert('Bonne reponse');}
+		else{
+			alert('Cherche encore');}
+			}
+		
+		</script>
+	</body>
+</html>
